@@ -5,7 +5,7 @@ import "./App.css";
 
 const App = () => {
   const [searchField, setSearchField] = useState("");
-  const [title, setTitle] = useState("");
+  const [title, setTitle] = useState("Monster Rodolex");
   const [monsters, setMonsters] = useState([]);
   const [filteredMonsters, setFilteredMonsters] = useState(monsters);
 
